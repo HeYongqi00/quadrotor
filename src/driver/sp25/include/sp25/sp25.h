@@ -20,7 +20,7 @@ using namespace std;
 namespace Sp25{
     //常量定义
     const uint32_t      DATA_SIZE               =14;
-    const uint32_t      BUFFER_SIZE             =DATA_SIZE*3;
+    const uint32_t      BUFFER_SIZE             =DATA_SIZE*3 + DATA_SIZE - 1;
     const string        SERIAL_NAME             ="/dev/ttyUSB0";     //="/dev/ttyUSB0";
     const uint32_t      SERIAL_BAUD             =115200;
     const uint32_t      SERIAL_WAIT             =10;

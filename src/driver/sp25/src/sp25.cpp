@@ -130,7 +130,10 @@ namespace Sp25
             if(insData.size() == DATA_SIZE)
             {
                 if(DataCalculate())
+                {
                     pubMwradar.publish(msgMwradar);  
+                    break;
+                }
                 insData.clear();
             }
         }
