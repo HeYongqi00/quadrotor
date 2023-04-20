@@ -95,7 +95,7 @@ namespace Sp25
         }
         // 读串口函数，参数一为缓冲器，参数二为读取缓冲器中的字节数
         Sp25Serial.read(insBuffer, BUFFER_SIZE);
-        Sp25Serial.flushInput();
+        Sp25Serial.flushInput();  //清除输入缓冲区数据
         for(int i = 0; i <  BUFFER_SIZE; i++)
         {
             if(insBuffer[i] == 0xAA) //数据为帧头
