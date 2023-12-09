@@ -58,7 +58,6 @@ namespace Sp25
         {
             // 报错误
             ROS_ERROR_STREAM("open serial failed!!! exam serial!!!!");
-            return false;
         }
 
         // 再次检查串口打开
