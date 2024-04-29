@@ -1,0 +1,103 @@
+[0.223s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/heyongqi/heyongqi/code_test/quadrotor']
+[0.223s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/heyongqi/heyongqi/code_test/quadrotor'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fb114153100>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fb114153100>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb114153f40>)
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.260s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/heyongqi/heyongqi/code_test/quadrotor'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/log) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/log) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/log) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/picture) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'cmake'
+[0.356s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring '/home/heyongqi/heyongqi/code_test/quadrotor/src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package '/home/heyongqi/heyongqi/code_test/quadrotor/src/driver/sp25' with type 'ros.catkin' and name 'sp25'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package '/home/heyongqi/heyongqi/code_test/quadrotor/src/msgs/sensor' with type 'ros.catkin' and name 'sensor'
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
